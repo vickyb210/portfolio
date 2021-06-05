@@ -117,6 +117,9 @@ body {
     .navbar-collapse {
       .navbar-nav {
         transition: all 1s;
+        .nav-link {
+          color: var(--primary);
+        }
       }
     }
   }
@@ -222,9 +225,45 @@ footer {
   .rounded-50 {
     border-radius: 25px !important;
   }
+
+  .navbar-container {
+    nav {
+      .navbar-collapse {
+        .navbar-nav {
+          text-align: center;
+          line-height: 5rem;
+          font-size: 1.25rem;
+          .nav-link {
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+
+  .satellite-1 {
+    width: 100vw;
+    height: 100vw;
+    top: -45vw;
+    left: -46vw;
+  }
+
+  .satellite-2 {
+    width: 35vw;
+    height: 35vw;
+    right: -24vw;
+    top: 37vw;
+  }
+  
   .works {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+
     .topic {
       text-align: center;
+      h3 {
+        font-size: 2rem;
+      }
     }
   }
   .about {
@@ -261,12 +300,6 @@ footer {
     }
   }
 
-  nav .navbar-nav {
-    text-align: center;
-    line-height: 5rem;
-    font-size: 1.25rem;
-  }
-
   footer {
     height: 66vw;
 
@@ -274,7 +307,7 @@ footer {
       margin: 8vw 0 15vw 0!important;
     }
     .nav {
-      font-size: 0.25rem;
+      font-size: 1vw;
       a {
         padding: 0 0.8rem !important;
       }

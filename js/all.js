@@ -1,8 +1,6 @@
 $(document).ready(function () {
-    // 燈箱效果初始
-    lightbox.option({
-        'resizeDuration': 1
-    });
+    // lightbox初始
+    new SimpleLightbox('.slick-container a', { /* options */ });
 
     // 輪播效果初始
     $('.slick-container').slick({
@@ -12,13 +10,13 @@ $(document).ready(function () {
         // autoplaySpeed: 2000,
         responsive: [
             {
-              breakpoint: 600,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-              }
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
             }
-          ]
+        ]
     });
 
     //   將作品區塊裡面，奇數的row裡面的col-8和col-4排序顛倒(注意，第一個row的index為0，故取奇數而非偶數)
@@ -40,7 +38,7 @@ $(document).ready(function () {
     }
 
     // 返回頂部按鈕
-    $('.top-button').click(function (e) {
+    $('.top-button, .navbar-brand').click(function (e) {
         e.preventDefault();
         $('html, body').animate({
             scrollTop: 0

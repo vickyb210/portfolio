@@ -11599,6 +11599,10 @@ body {
   transition: all 1s;
 }
 
+.navbar-container nav .navbar-collapse .navbar-nav .nav-link {
+  color: var(--primary);
+}
+
 .introduce-card {
   -webkit-animation: backInUp 1s both;
           animation: backInUp 1s both;
@@ -11704,8 +11708,35 @@ footer .top-button {
   .rounded-50 {
     border-radius: 25px !important;
   }
+  .navbar-container nav .navbar-collapse .navbar-nav {
+    text-align: center;
+    line-height: 5rem;
+    font-size: 1.25rem;
+  }
+  .navbar-container nav .navbar-collapse .navbar-nav .nav-link {
+    color: #ffffff;
+  }
+  .satellite-1 {
+    width: 100vw;
+    height: 100vw;
+    top: -45vw;
+    left: -46vw;
+  }
+  .satellite-2 {
+    width: 35vw;
+    height: 35vw;
+    right: -24vw;
+    top: 37vw;
+  }
+  .works {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
   .works .topic {
     text-align: center;
+  }
+  .works .topic h3, .works .topic .h3 {
+    font-size: 2rem;
   }
   .about {
     height: 420vw;
@@ -11735,11 +11766,6 @@ footer .top-button {
     right: 22vw;
     top: -8vw;
   }
-  nav .navbar-nav {
-    text-align: center;
-    line-height: 5rem;
-    font-size: 1.25rem;
-  }
   footer {
     height: 66vw;
   }
@@ -11747,7 +11773,7 @@ footer .top-button {
     margin: 8vw 0 15vw 0 !important;
   }
   footer .nav {
-    font-size: 0.25rem;
+    font-size: 1vw;
   }
   footer .nav a {
     padding: 0 0.8rem !important;
