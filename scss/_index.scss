@@ -1,3 +1,4 @@
+// 自定義CSS
 :root {
   --primary: #eb7920;
   --background-color: Teal;
@@ -12,6 +13,12 @@ body {
   background: linear-gradient(180deg, #313131, transparent);
   background-repeat: no-repeat;
   letter-spacing: 1px;
+
+  // 反白顏色
+  ::selection {
+    background: var(--primary);
+    color: #fff;
+  }
 }
 
 .slick-container .item {
@@ -19,6 +26,10 @@ body {
   img {
     object-fit: contain;
   }
+}
+
+.modal-content {
+  display: contents;
 }
 
 /* 圓角 */
@@ -83,6 +94,11 @@ body {
 
 .bg-primary-90 {
   background: rgba(235, 121, 32, 0.9);
+}
+
+.btn-close {
+  width: 3vw;
+    height: 3vw;
 }
 
 .navbar-container {
@@ -225,6 +241,10 @@ footer {
   .rounded-50 {
     border-radius: 25px !important;
   }
+  .btn-close {
+    width: 12vw;
+    height: 12vw;
+  }
 
   .navbar-container {
     nav {
@@ -307,7 +327,7 @@ footer {
       margin: 8vw 0 15vw 0!important;
     }
     .nav {
-      font-size: 1vw;
+      font-size: 0.7rem;
       a {
         padding: 0 0.8rem !important;
       }

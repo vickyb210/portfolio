@@ -6066,7 +6066,7 @@ fieldset:disabled .btn {
   z-index: 1040;
   width: 100vw;
   height: 100vh;
-  background-color: #000;
+  background-color: #fff;
 }
 
 .modal-backdrop.fade {
@@ -6074,7 +6074,7 @@ fieldset:disabled .btn {
 }
 
 .modal-backdrop.show {
-  opacity: 0.5;
+  opacity: 0.9;
 }
 
 .modal-header {
@@ -11483,6 +11483,16 @@ body {
   letter-spacing: 1px;
 }
 
+body ::-moz-selection {
+  background: var(--primary);
+  color: #fff;
+}
+
+body ::selection {
+  background: var(--primary);
+  color: #fff;
+}
+
 .slick-container .item {
   height: 250px;
 }
@@ -11490,6 +11500,10 @@ body {
 .slick-container .item img {
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.modal-content {
+  display: contents;
 }
 
 /* 圓角 */
@@ -11555,6 +11569,11 @@ body {
 
 .bg-primary-90 {
   background: rgba(235, 121, 32, 0.9);
+}
+
+.btn-close {
+  width: 3vw;
+  height: 3vw;
 }
 
 .navbar-container {
@@ -11708,6 +11727,10 @@ footer .top-button {
   .rounded-50 {
     border-radius: 25px !important;
   }
+  .btn-close {
+    width: 12vw;
+    height: 12vw;
+  }
   .navbar-container nav .navbar-collapse .navbar-nav {
     text-align: center;
     line-height: 5rem;
@@ -11773,7 +11796,7 @@ footer .top-button {
     margin: 8vw 0 15vw 0 !important;
   }
   footer .nav {
-    font-size: 1vw;
+    font-size: 0.7rem;
   }
   footer .nav a {
     padding: 0 0.8rem !important;

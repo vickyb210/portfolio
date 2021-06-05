@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="168.073" height="144.915" viewBox="0 0 168.073 144.915">
+  <defs>
+    <filter id="mail" x="0" y="0" width="168.073" height="144.915" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.361"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="icon_mail" transform="translate(-847.01 -318.733)">
+    <g transform="matrix(1, 0, 0, 1, 847.01, 318.73)" filter="url(#mail)">
+      <path id="mail-2" data-name="mail" d="M126.564,80H45.509A13.524,13.524,0,0,0,32,93.509v57.9a13.524,13.524,0,0,0,13.509,13.509h81.055a13.524,13.524,0,0,0,13.509-13.509v-57.9A13.524,13.524,0,0,0,126.564,80Zm-3.421,22.346L88.406,129.364a3.86,3.86,0,0,1-4.738,0L48.93,102.346a3.86,3.86,0,1,1,4.738-6.094l32.369,25.176,32.369-25.175a3.86,3.86,0,1,1,4.738,6.094Z" transform="translate(-2 -56)" fill="#eb7920"/>
+    </g>
+    <path id="mail-3" data-name="mail" d="M127.462,105.864,92.357,132.882a3.933,3.933,0,0,1-4.788,0L52.464,105.864a3.832,3.832,0,0,1-.685-5.416,3.928,3.928,0,0,1,5.474-.678l32.711,25.176L122.674,99.77a3.928,3.928,0,0,1,5.473.678,3.833,3.833,0,0,1-.685,5.416Z" transform="translate(840.835 259.223)" fill="#fff"/>
+  </g>
+</svg>

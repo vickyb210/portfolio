@@ -18,6 +18,27 @@
 </head>
 
 <body>
+
+  <!-- Modal -->
+  <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModal" aria-hidden="true">
+    <div class="modal-dialog h-75">
+        <div class="modal-content h-100">
+            <div class="row h-100 justify-content-center align-items-center">
+                <div class="col-5 col-md-3 h-50 d-flex flex-column justify-content-center align-items-center">
+                    <div class="text-center fs-5 lh-lg pb-5">
+                        <a class="btn" href="mailto:yamb210@gmail.com"><img class="w-100" src="images/icon_mail.svg"></a>
+                        OR
+                        <a class="btn" href="https://line.me/ti/p/iuES0I-CSr"><img class="w-100" src="images/icon_line.svg"></a>
+                    </div>
+                    <div class="rounded-circle bg-dark shadow" data-bs-dismiss="modal">
+                        <button type="button" class="btn-close btn-close-white fs-5" aria-label="Close"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
     <!-- feature start -->
     <div class="position-relative overflow-hidden vh-140">
         <!-- nav -->
@@ -43,7 +64,7 @@
                                 <a class="nav-link active px-4 text-uppercase fw-500" href="#">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active px-4 text-uppercase fw-500" href="#">Contact</a>
+                                <a class="nav-link active px-4 text-uppercase fw-500" href="#" data-bs-toggle="modal" data-bs-target="#contactModal">Contact</a>
                             </li>
                         </ul>
                     </div>
