@@ -23,19 +23,19 @@ $(document).ready(function () {
     $('.works .row:odd').find('.col-8').addClass('order-2');
 
     // 星星隨機排列: 用append的方式把.star加進去.stars裡，產生隨機亂數以修改各個.star的CSS
-    // for (let i = 1; i < 30; i++) {
-    //     const randomLeft = Math.floor((Math.random() * 19) + 1) * 5 - 20; //隨機產生-15~75的數
-    //     const randomTop = Math.floor((Math.random() * 25) + 1) * 5 - 20; //隨機產生-15~105的數
-    //     const randomTime = Math.floor((Math.random() * 10) + 5); //隨機產生5~15的數
-    //     const randomDelay = Math.floor((Math.random() * 5)); //隨機產生0~4的數
-    //     $('.stars').append('<img class="star position-absolute" src="images/img_star.svg">');
-    //     $('.stars .star:nth-child(' + i + ')').css({
-    //         "left": randomLeft + "vw", //修改CSS的left為未知vw
-    //         "top": randomTop + "vh", //修改CSS的top為未知vh
-    //         "animation-duration": randomTime + "s", //修改CSS的animation-duration為未知秒
-    //         "animation-delay": randomDelay + "s" //修改CSS的animation-delay為未知秒
-    //     })
-    // }
+    for (let i = 1; i < 16; i++) {
+        const randomLeft = Math.floor((Math.random() * 19) + 1) * 5 - 20; //隨機產生-15~75的數
+        const randomTop = Math.floor((Math.random() * 25) + 1) * 5 - 20; //隨機產生-15~105的數
+        const randomTime = Math.floor((Math.random() * 10) + 5); //隨機產生5~15的數
+        const randomDelay = Math.floor((Math.random() * 5)); //隨機產生0~4的數
+        $('.stars').append('<img class="star position-absolute" src="images/img_star.svg">');
+        $('.stars .star:nth-child(' + i + ')').css({
+            "left": randomLeft + "vw", //修改CSS的left為未知vw
+            "top": randomTop + "vh", //修改CSS的top為未知vh
+            "animation-duration": randomTime + "s", //修改CSS的animation-duration為未知秒
+            "animation-delay": randomDelay + "s" //修改CSS的animation-delay為未知秒
+        })
+    }
 
     // 返回頂部按鈕
     $('.top-button, .navbar-brand').click(function (e) {
