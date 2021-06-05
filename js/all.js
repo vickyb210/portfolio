@@ -23,7 +23,7 @@ $(document).ready(function () {
     $('.works .row:odd').find('.col-8').addClass('order-2');
 
     // 星星隨機排列: 用append的方式把.star加進去.stars裡，產生隨機亂數以修改各個.star的CSS
-    for (let i = 1; i < 16; i++) {
+    for (let i = 1; i < 11; i++) {
         const randomLeft = Math.floor((Math.random() * 19) + 1) * 5 - 20; //隨機產生-15~75的數
         const randomTop = Math.floor((Math.random() * 25) + 1) * 5 - 20; //隨機產生-15~105的數
         const randomTime = Math.floor((Math.random() * 10) + 5); //隨機產生5~15的數
