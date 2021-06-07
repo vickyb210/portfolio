@@ -53,7 +53,7 @@ body {
 .bg-wave {
   background: url("../images/img_wave.svg") repeat-x;
   background-size: cover;
-  /* animation: wave 15s ease-in-out infinite alternate; */
+  animation: wave 15s ease-in-out infinite alternate;
 }
 
 .vh-140 {
@@ -152,7 +152,7 @@ body {
   height: 45vw;
   box-shadow: 0 0 99px black;
   background: linear-gradient(225deg, #eb7920, #f4ff598c);
-  /* animation: revolve 2s ease infinite alternate; */
+  animation: revolve 2s ease infinite alternate;
 }
 
 .satellite-2 {
@@ -162,7 +162,7 @@ body {
   height: 18vw;
   box-shadow: 0 0 99px black;
   background: linear-gradient(45deg, #ff598094, #eb7820);
-  /* animation: revolve 2s ease infinite alternate; */
+  animation: revolve 2s ease infinite alternate;
 }
 
 .star {
@@ -215,6 +215,7 @@ body {
       width: 29vw;
       right: 1vw;
       top: 17vw;
+      animation: revolve 20s ease infinite alternate;
     }
 
     & img:nth-child(2) {

@@ -11527,7 +11527,8 @@ body ::selection {
 .bg-wave {
   background: url("../images/img_wave.svg") repeat-x;
   background-size: cover;
-  /* animation: wave 15s ease-in-out infinite alternate; */
+  -webkit-animation: wave 15s ease-in-out infinite alternate;
+          animation: wave 15s ease-in-out infinite alternate;
 }
 
 .vh-140 {
@@ -11635,7 +11636,8 @@ body ::selection {
   -webkit-box-shadow: 0 0 99px black;
           box-shadow: 0 0 99px black;
   background: linear-gradient(225deg, #eb7920, #f4ff598c);
-  /* animation: revolve 2s ease infinite alternate; */
+  -webkit-animation: revolve 2s ease infinite alternate;
+          animation: revolve 2s ease infinite alternate;
 }
 
 .satellite-2 {
@@ -11646,7 +11648,8 @@ body ::selection {
   -webkit-box-shadow: 0 0 99px black;
           box-shadow: 0 0 99px black;
   background: linear-gradient(45deg, #ff598094, #eb7820);
-  /* animation: revolve 2s ease infinite alternate; */
+  -webkit-animation: revolve 2s ease infinite alternate;
+          animation: revolve 2s ease infinite alternate;
 }
 
 .star {
@@ -11704,6 +11707,8 @@ body ::selection {
   width: 29vw;
   right: 1vw;
   top: 17vw;
+  -webkit-animation: revolve 20s ease infinite alternate;
+          animation: revolve 20s ease infinite alternate;
 }
 
 .about .astro img:nth-child(2) {
