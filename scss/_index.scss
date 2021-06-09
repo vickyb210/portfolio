@@ -1,9 +1,4 @@
 // 自定義CSS
-:root {
-  --primary: #eb7920;
-  --background-color: Teal;
-}
-
 @font-face {
   font-family: Poppins;
   src: url("../fonts/Poppins-Medium.ttf"), url("../fonts/Poppins-Regular.ttf");
@@ -16,7 +11,7 @@ body {
 
   // 反白顏色
   ::selection {
-    background: var(--primary);
+    background: darken($primary, 10%);
     color: #fff;
   }
 }
@@ -117,7 +112,7 @@ body {
       .hamburger-line {
         height: 2px;
         width: 10vw;
-        background: var(--primary);
+        background: $primary;
         transition: transform 1s, margin 0.1s;
 
         &.rotate-45 {
@@ -134,7 +129,7 @@ body {
       .navbar-nav {
         transition: all 1s;
         .nav-link {
-          color: var(--primary);
+          color: $primary;
         }
       }
     }

@@ -11466,11 +11466,6 @@ fieldset:disabled .btn {
   }
 }
 
-:root {
-  --primary: #eb7920;
-  --background-color: Teal;
-}
-
 @font-face {
   font-family: Poppins;
   src: url("../fonts/Poppins-Medium.ttf"), url("../fonts/Poppins-Regular.ttf");
@@ -11484,12 +11479,12 @@ body {
 }
 
 body ::-moz-selection {
-  background: var(--primary);
+  background: #c66112;
   color: #fff;
 }
 
 body ::selection {
-  background: var(--primary);
+  background: #c66112;
   color: #fff;
 }
 
@@ -11596,7 +11591,7 @@ body ::selection {
 .navbar-container nav .navbar-toggler .hamburger-line {
   height: 2px;
   width: 10vw;
-  background: var(--primary);
+  background: #eb7920;
   -webkit-transition: margin 0.1s, -webkit-transform 1s;
   transition: margin 0.1s, -webkit-transform 1s;
   transition: transform 1s, margin 0.1s;
@@ -11620,7 +11615,7 @@ body ::selection {
 }
 
 .navbar-container nav .navbar-collapse .navbar-nav .nav-link {
-  color: var(--primary);
+  color: #eb7920;
 }
 
 .introduce-card {
