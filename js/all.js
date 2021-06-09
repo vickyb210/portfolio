@@ -20,7 +20,7 @@ $(document).ready(function () {
     });
 
     //   將作品區塊裡面，奇數的row裡面的col-8和col-4排序顛倒(注意，第一個row的index為0，故取奇數而非偶數)
-    $('.works .row:odd').find('.col-8').addClass('order-2');
+    $('.works .row:odd').find('.col-md-8').addClass('order-md-2');
 
     // 星星隨機排列: 用append的方式把.star加進去.stars裡，產生隨機亂數以修改各個.star的CSS
     for (let i = 1; i < 11; i++) {
