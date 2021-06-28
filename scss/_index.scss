@@ -4,6 +4,11 @@
   src: url("../fonts/Poppins-Medium.ttf"), url("../fonts/Poppins-Regular.ttf");
 }
 
+@mixin circle($diameter) {
+  width: $diameter;
+  height: $diameter;
+}
+
 body {
   background: linear-gradient(180deg, #313131, transparent);
   background-repeat: no-repeat;
@@ -141,20 +146,18 @@ body {
 }
 
 .satellite-1 {
+  @include circle(45vw);
   top: -22vw;
   left: -13vw;
-  width: 45vw;
-  height: 45vw;
   box-shadow: 0 0 99px black;
   background: linear-gradient(225deg, #eb7920, #f4ff598c);
   animation: revolve 2s ease infinite alternate;
 }
 
 .satellite-2 {
+  @include circle(18vw);
   top: 5vw;
   right: -4vw;
-  width: 18vw;
-  height: 18vw;
   box-shadow: 0 0 99px black;
   background: linear-gradient(45deg, #ff598094, #eb7820);
   animation: revolve 2s ease infinite alternate;
@@ -190,16 +193,14 @@ body {
   }
 
   .circle-01 {
-    width: 95vw;
-    height: 95vw;
+    @include circle(95vw);
     right: -10vw;
     top: 0vw;
     background: linear-gradient(225deg, #ffffff, #fde7d6);
   }
 
   .circle-02 {
-    width: 110vw;
-    height: 110vw;
+    @include circle(110vw);
     right: -40vw;
     top: 20vw;
     background: linear-gradient(225deg, #ffffff, transparent);
@@ -238,8 +239,7 @@ footer {
     border-radius: 25px !important;
   }
   .btn-close {
-    width: 12vw;
-    height: 12vw;
+    @include circle(12vw);
   }
 
   .navbar-container {
@@ -258,15 +258,13 @@ footer {
   }
 
   .satellite-1 {
-    width: 100vw;
-    height: 100vw;
+    @include circle(100vw);
     top: -45vw;
     left: -46vw;
   }
 
   .satellite-2 {
-    width: 35vw;
-    height: 35vw;
+    @include circle(35vw);
     right: -24vw;
     top: 37vw;
   }
@@ -286,15 +284,13 @@ footer {
     height: 420vw;
 
     .circle-01 {
-      width: 500vw;
-      height: 500vw;
+      @include circle(500vw);
       right: -246vw;
       top: 16vw;
     }
 
     .circle-02 {
-      width: 500vw;
-      height: 500vw;
+      @include circle(500vw);
       right: -357vw;
       top: 216vw;
     }
@@ -331,6 +327,7 @@ footer {
   }
 }
 
+// 動畫
 @keyframes wave {
   0% {
     margin-left: 0;

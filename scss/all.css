@@ -11624,10 +11624,10 @@ body ::selection {
 }
 
 .satellite-1 {
-  top: -22vw;
-  left: -13vw;
   width: 45vw;
   height: 45vw;
+  top: -22vw;
+  left: -13vw;
   -webkit-box-shadow: 0 0 99px black;
           box-shadow: 0 0 99px black;
   background: linear-gradient(225deg, #eb7920, #f4ff598c);
@@ -11636,10 +11636,10 @@ body ::selection {
 }
 
 .satellite-2 {
-  top: 5vw;
-  right: -4vw;
   width: 18vw;
   height: 18vw;
+  top: 5vw;
+  right: -4vw;
   -webkit-box-shadow: 0 0 99px black;
           box-shadow: 0 0 99px black;
   background: linear-gradient(45deg, #ff598094, #eb7820);
