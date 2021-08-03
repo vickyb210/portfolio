@@ -57,7 +57,7 @@
   font-family: "slick";
   font-size: 25px;
   line-height: 1;
-  color: var(--primary);
+  color: #eb7920;  /* color為自定義 */
   opacity: 0.75;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

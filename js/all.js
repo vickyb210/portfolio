@@ -6,8 +6,9 @@ $(document).ready(function () {
     $('.slick-container').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2000,
+        // autoplay: true,
+        // autoplaySpeed: 2000,
+        infinite: false,
         responsive: [
             {
                 breakpoint: 600,
