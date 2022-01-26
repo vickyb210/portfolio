@@ -11519,7 +11519,7 @@ body ::selection {
 }
 
 .bank {
-  display: none;
+  display: contents;
 }
 
 /* 波浪圖 */
