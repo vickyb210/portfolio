@@ -7,17 +7,8 @@
       <stop offset="0" stop-color="#eb7920"/>
       <stop offset="1" stop-color="#e1c92b"/>
     </linearGradient>
-    <filter id="Intersection_5" x="-148.5" y="-148.499" width="2217" height="1209" filterUnits="userSpaceOnUse">
-      <feOffset input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="49.5" result="blur"/>
-      <feFlood flood-color="#eb7920" flood-opacity="0.231"/>
-      <feComposite operator="in" in2="blur"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
   </defs>
   <g id="bg_footer" transform="translate(-6832 -4284)" clip-path="url(#clip-path)">
-    <g transform="matrix(1, 0, 0, 1, 6832, 4284)" filter="url(#Intersection_5)">
-      <path id="Intersection_5-2" data-name="Intersection 5" d="M-11047,1005V293.7c293.977-129.077,618.855-200.7,960.5-200.7,341.241,0,665.8,71.474,959.5,200.263V1005Z" transform="translate(11047 -93)" fill="url(#linear-gradient)"/>
-    </g>
+    <path id="Intersection_5" data-name="Intersection 5" d="M-11047,1005V293.7c293.977-129.077,618.855-200.7,960.5-200.7,341.241,0,665.8,71.474,959.5,200.263V1005Z" transform="translate(17879 4191)" fill="url(#linear-gradient)"/>
   </g>
 </svg>
